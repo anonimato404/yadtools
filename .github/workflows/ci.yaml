@@ -16,9 +16,7 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter@v4
         env:
-          VALIDATE_ALL_CODEBASE: false
-
-          VALIDATE_JSON: true
+          VALIDATE_ALL_CODEBASE: true
 
           OUTPUT_DETAILS: detailed
           DEFAULT_BRANCH: main
